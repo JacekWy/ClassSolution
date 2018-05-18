@@ -8,8 +8,8 @@ namespace Pole_Prostokot
 {
     class pole_prostokotu
     {
-        private int a;
-        private int b;
+        private int _a;
+        private int _b;
 
         public int A { get; set; }
         public int B { get; set; }
@@ -20,8 +20,6 @@ namespace Pole_Prostokot
             A = aa;
             B = bb;
         }
-
-
         public int oblicz(int aa,int bb)
         {
             return aa * bb;

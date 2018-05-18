@@ -10,9 +10,12 @@ namespace Pole_Prostokot
     {
         static void Main(string[] args)
         {
-            pole_prostokotu pole1 = new pole_prostokotu(20,12);
+            pole_prostokotu pole1 = new pole_prostokotu(20, 12);
 
             Console.WriteLine(pole1.oblicz(pole1.A,pole1.B));
+           
+
+
             Console.ReadKey();
 
 
