@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8B07DDFB-7CD1-4883-B741-7B7CFC2DB011}</ProjectGuid>
+    <ProjectGuid>{C8908167-C76E-45B5-A0A7-618E56BABCA7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Class</RootNamespace>
-    <AssemblyName>Class</AssemblyName>
+    <RootNamespace>Pole_Prostokot</RootNamespace>
+    <AssemblyName>Pole_Prostokot</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car_class.cs" />
+    <Compile Include="pole_prostokotu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
